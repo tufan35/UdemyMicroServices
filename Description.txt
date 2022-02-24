@@ -1,0 +1,16 @@
+CatalogService 
+- MongoDB Driver Eklenmiþtir.
+-Veritabaný olarak MongoDB kullanýlacaktýr. 
+-AutoMapper 11.0 eklendi
+
+
+DEVAM EDÝLECEK YER ; 
+DTO NESNELERÝ Eklendi
+AutoMapper Eklenecektir.
+
+
+
+//Docker Ýndirildi 
+"docker volume create porainer_data"  oluþturuldu.
+docker run -d -p  800:800 -p 900:900 --name=portainer --restart=always -v /var/run/docker.suck:/var/run/docker.suck -v porainer_data:/data portainer/portainer-ce
+localhost:9000 baðlantý adresi
